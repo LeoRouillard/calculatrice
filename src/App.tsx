@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 import { useState } from 'react';
 
@@ -7,7 +7,7 @@ function Calculatrice() {
 
   let listButton = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
   let [formule, setFormule] = useState('');
-  let [res, setRes] = useState(0)
+  // let [res, setRes] = useState(0)
 
   let calculate = () => {
     
